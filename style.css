@@ -1,0 +1,55 @@
+h3{
+    color: green;
+}
+
+.section1{
+    background: black;
+    color: white;
+    padding: 10px;
+}
+
+.section1:hover{
+    font-size: 20px;
+}
+
+.div{
+    background: white;
+    color: black;
+}
+
+.div1{
+    padding: 10px;
+    border: 10px solid red;
+}
+
+.section1 .div p{
+    color: red;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    background: black;
+    padding: 10px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+a:hover{
+    color: black;
+    background: gray;
+}
+
+.section2{
+    display: flex;
+}
+
+.div4 , .div5{
+    border: 2px solid black;
+    padding: 10px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
